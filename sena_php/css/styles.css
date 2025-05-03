@@ -1,0 +1,192 @@
+header{
+    padding: 0;
+    background-color: #325C6C;
+    color: #ffffff;
+    padding-top: 2px;
+    border: solid black;
+    margin: 5px;
+}
+h1{
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    width: 400px;
+    background-color: rgb(247,243,243 );
+    padding: 20px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+label{
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    margin: 5px;
+}
+
+input{
+    border-radius: 5px;
+    border: solid rgb(92, 86, 86);
+    width: 370px;
+    height: 30px;
+}
+
+.inputNombre{
+    width: 177px;
+}
+
+.input2{
+    width: 37px;
+    background-color: #C7DCDD;
+}
+
+.btnFile{
+    width: 100px;
+    display: none;
+}
+.btn1File {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.input3{
+    width: 324px;
+}
+
+p{
+    margin: 4px;
+}
+.p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    border-radius: 15px;
+    width: 90px;
+    height: 40px;
+    background-color: #C7DCDD;  
+}
+.btn:hover{
+    background-color: #6A9A9E;
+    color: white;
+}
+.img1{
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    border-radius: 60px;
+}
+.btn1{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: solid black;
+    background-color: #325C6C;
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    left: 1050px;
+    top: 400px;
+}
+
+.btn1:hover{
+    background-color: #9BC6BF;
+    color: black;
+}
+
+.img2{
+    position: absolute;
+    left: 1050px;
+    top: 200px;
+    width: 200px;
+}
+
+.check{
+    position: absolute;
+    left: 1025px;
+    top: 460px;
+    width: 15px;
+}
+
+.term{
+    position: absolute;
+    font-size: 15px;
+    left: 1050px;
+    top: 470px;
+
+}
+
+footer{
+    background-color: #325C6C;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    border: solid black;
+}
+
+.divfooter{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.mapa{
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+    border: solid black;
+    background-color: #C7DCDD;
+    color: black;
+    margin-top: 10px;
+}
+
+a{
+    color: #ffffff;
+}
+
+/* Extras pantalla inicio de sesion */
+
+.form1{
+    height: 340px;
+    padding: 50px;
+}
+
+.label2{
+    font-size: 25px;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.inputP2{
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn2{
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    border: solid black;
+    background-color: #325C6C;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.btn2:hover:hover{
+    background-color: #9BC6BF;
+    color: black;
+}
