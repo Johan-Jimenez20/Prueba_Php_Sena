@@ -52,7 +52,7 @@
         $result = mysqli_query($mysqli, $query);
         if ($result) {
             echo "<center><p style='border-radius: 20px;box-shadow: 10px 10px 5px #c68615; font-size: 23px; font-weight: bold;' >REGISTRO CREADO SATISFACTORIAMENTE<br><br></p></center>
-                <div class='form' align='center'><h3>Regresar para iniciar la sesión... <br/><br/><center><a href='index.php'>Regresar</a></center></h3></div>";
+                <div class='form' align='center'><h3>Regresar para iniciar la sesión... <br/><br/><center><a class='a2' href='index.php'>Regresar</a></center></h3></div>";
         }
     } else {
 ?>
@@ -81,6 +81,9 @@
         </P>
             <input type="password" name="password" id="password" placeholder="Ingrese su contraseña" required>
         <P>
+        <p>
+            
+        </p>
         <!-- Imagen de perfil -->
       
         <button type="submit" class="btn1" id="registrarse">Registrarse</button>

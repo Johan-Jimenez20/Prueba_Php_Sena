@@ -191,3 +191,156 @@ a{
     color: black;
 }
 
+.a2 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+/* Index */
+
+.btn15{
+    padding-right: 150px;
+    background-color: #325C6C;
+    border-style: hidden;
+    
+}
+
+.imgIndex{
+    width: 30px;
+    height: 30px;
+}
+
+.dropDown{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+.ul1{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    background-color: #325C6C;
+}
+
+ul li{
+    display: inline-block;
+    position:relative;
+}
+
+ul li .aIndex{
+    display: block;
+    padding: 30px 25px;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+ul li ul.dropDown{
+    display: block;
+}
+
+ul li ul.dropDown{
+    width: 100%;
+    background-color: #325C6C;
+    position: absolute;
+    display: none;
+}
+
+ul li .aIndex:hover {
+    background: #325C6C;
+
+}
+ul li:hover ul.dropDown{
+ display: block;
+}
+
+.btn16{
+    border-radius: 5px;
+}
+
+.headerIndex{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.divIndex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 350px;
+   
+}
+.imgIndex2{
+    width: 20px;
+    height: 25px;
+}
+
+.divIndex2{
+    padding-left: 200px;
+}
+
+.aIndex2{
+    margin: 10px;
+    font-size: 17px;
+}
+
+.h2Index{
+    text-align: left;
+    margin-left: 40px;
+}
+
+.divIndex3{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 10px;
+}
+
+.imgIndex3{
+    width: 150px;
+    height: 150px;
+    border: solid 2px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.divIndex4{
+    margin: 5px;
+    border: solid #325C6C;
+    width: 195px;
+    background-color: #6A9A9E;
+    border-radius: 5px;
+}
+
+.pIndex{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn17{
+    margin: 5px;
+    width: 100px;
+    margin-left: 60px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: black;
+    background-color: #325C6C;
+}
+
+.btn17:hover{
+    background-color: #6A9A9E;
+}
+
+.pIndex2{
+    font-size: 18px;
+    margin-left: 30px;
+    color: #4c4e52;
+    font-weight: bold;
+}

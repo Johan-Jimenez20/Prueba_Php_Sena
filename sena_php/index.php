@@ -29,11 +29,11 @@ session_start();
         $_SESSION['tipo_usuario'] = $row['tipo_usuario'];
         $_SESSION['usuario'] = $row['usuario'];
 
-        if($row['tipo_usuario']==1)
+        if($row['tipo_usuario']==7)
         {
           header("Location: access.php");
         }
-        elseif($row['tipo_usuario']==2)
+        elseif($row['tipo_usuario']==7)
         {
           header("Location: access.php");
         }
@@ -67,19 +67,18 @@ session_start();
         <h3>My project</h3>
         <h1>Inicio de sesion</h1>
     </header>
-    <form action="" class="form1">
+    <form class="form1" method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
         <P>
             <label for="usuario" class="label2">Correo electronico</label>
         </P>
-            <input type="email" placeholder="minombre@miproyecto.com" class="inputP2" id="usuario">
+            <input type="email" name="usuario" placeholder="minombre@miproyecto.com" class="inputP2" id="usuario">
         <P>
-            <label for="password" class="label2">Contraseña</label>
+            <label for="password"  class="label2">Contraseña</label>
         </P>
-            <input type="password" placeholder="Contraseña" class="inputP2" id="password">
-            <p id="incorrecto"></p>
+            <input type="password" name="password" placeholder="Contraseña" class="inputP2" id="password">
             <button type="submit" class="btn2">Entrar</button>
         <p>
-            <a class="aRedireccion" href="./registro.php">¿Nuevo aqui? Registrate</a>
+            <a class="a2" href="./registro.php">¿Nuevo aqui? Registrate</a>
         </p>
     </form>
     
